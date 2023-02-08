@@ -3,8 +3,6 @@ import Header from './components/Header';
 import HeartsList from './components/HeartsList';
 
 
-const message = 'cool heart';
-
 
 function App() {
   return (
