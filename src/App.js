@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import Heart from './components/Heart';
+import HeartsList from './components/HeartsList';
 
 
 const message = 'cool heart';
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Heart msg={message} />;
+      <HeartsList />;
     </>
   );
 };
